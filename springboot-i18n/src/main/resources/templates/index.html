@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot + Internationalization</title>
+</head>
+<body>
+<h1>Spring Boot + Internationalization</h1>
+Language :
+<a href="?lang=en">English</a>|
+<a href="?lang=vi_VN">Viet Nam</a>|
+<a href="?lang=ja_JP">Japanese</a>|
+<a href="?lang=fr_FR">France</a>
+<p th:text="${message}">User test</p>
+<p th:text="#{hello}"></p>
+<br />
+</body>
+</html>
