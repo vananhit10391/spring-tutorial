@@ -1,5 +1,5 @@
-# Example-i18n project
-## testing
+# springboot-i18n project
+## Testing
 * `curl -X GET http://localhost:7001/`
 * `curl -X GET http://localhost:7001/?lang=vi_VN`
 * `curl -X GET http://localhost:7001/?lang=ja_JP`
