@@ -1,4 +1,4 @@
-# springboot-elastis project
+# springboot-elasticsearch project
 ## Install
 ### Elastissearch
 * Install and start Elastissearch at link:
