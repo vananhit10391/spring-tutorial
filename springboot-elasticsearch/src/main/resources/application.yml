@@ -1,0 +1,7 @@
+server:
+  port: 7002
+elasticsearch:
+  host: localhost
+  port: 9200
+  username:
+  password:
