@@ -12,3 +12,4 @@
 * `curl -H "Content-Type: application/json" -XGET localhost:7002/profile/`
 * `curl -H "Content-Type: application/json" -XGET localhost:7002/profile/{id}`
 * `curl -d '{"firstName":"John","lastName":"Doe","technologies":[{"name":"tech 01","yearsOfExperience":"1 year"},{"name":"tech 02","yearsOfExperience":"2 years"}],"location":{"lat":"Da Nang","lon":"Viet Nam"},"emails":["JohnDoe01@email.com","JohnDoe02@email.com"]}' -H "Content-Type: application/json" -XPOST localhost:7002/profile/`
+* `curl -H "Content-Type: application/json" -XPOST "localhost:7002/profile/" --data-binary "@ProfileDocument.json"`
