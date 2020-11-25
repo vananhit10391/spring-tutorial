@@ -1,4 +1,4 @@
-# springboot-i18n project
+# springboot-i18n module
 ## Testing
 * `curl -X GET http://localhost:7001/`
 * `curl -X GET http://localhost:7001/?lang=vi_VN`
