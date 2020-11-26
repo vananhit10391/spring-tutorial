@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" th:href="@{/css/bootstrap.min.css}"/>
+</head>
+<body>
+    <div style="padding: 100px 100px 10px;">
+        <form class="bs-example bs-example-form" role="form" th:action="@{/search}" action="/search" method="post">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="content" name="content">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                Search
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>TITLE</th>
+            <th>CONTENT</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="obj : ${poems}">
+            <td th:text="${obj.id}">${obj.id}</td>
+            <td th:text="${obj.title}">${obj.title}</td>
+            <td th:text="${obj.content}">${obj.content}</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

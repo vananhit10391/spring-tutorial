@@ -3,5 +3,7 @@
 * Refer /springboot-i18n
 ## springboot-elasticsearch module
 * Refer /springboot-elasticsearch
-## springboot-data-elasticsearch module
-* Refer /springboot-data-elasticsearch
+## spring-data-elasticsearch module
+* Refer /spring-data-elasticsearch
+## spring-fulltext-elasticsearch module
+* Refer /spring-fulltext-elasticsearch

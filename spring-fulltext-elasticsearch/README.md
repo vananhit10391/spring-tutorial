@@ -1,4 +1,4 @@
-# spring-data-elasticsearch module
+# spring-fulltext-elasticsearch module
 ## Install
 ### Elastissearch
 * Install and start Elastissearch at link:
@@ -7,5 +7,4 @@
 * Install and start Kibana at link:
     `https://www.elastic.co/guide/en/kibana/current/install.html`
 ## Testing
-* `curl -H "Content-Type: application/json" -XGET localhost:7003/person/`
-* `curl -d '{"firstName":"John","lastName":"Doe"}' -H "Content-Type: application/json" -XPOST localhost:7003/person/`
+* Access link: http://localhost:7004/
