@@ -29,6 +29,8 @@ public class SpringFulltextElasticsearchApplication {
 		poem2.setTitle("Second title");
 		poem2.setContent("say hello elasticsearch");
 
+		service.deleteAll();
+
 		service.save(poem1);
 		service.save(poem2);
 	}

@@ -27,4 +27,9 @@ public class PoemServiceImpl implements PoemService{
     public Page<Poem> searchAll(Pageable pageable) {
         return repository.findAll(pageable);
     }
+
+    @Override
+    public void deleteAll() {
+        repository.deleteAll();
+    }
 }

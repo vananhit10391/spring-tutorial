@@ -8,4 +8,5 @@ public interface PoemService {
    Page<Poem> search(String content, Pageable pageable);
    Poem save(Poem poem);
    Page<Poem> searchAll(Pageable pageable);
+   void deleteAll();
 }
