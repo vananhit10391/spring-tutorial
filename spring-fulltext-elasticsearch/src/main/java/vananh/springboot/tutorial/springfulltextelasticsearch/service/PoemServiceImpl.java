@@ -15,7 +15,12 @@ public class PoemServiceImpl implements PoemService{
 
     @Override
     public Page<Poem> search(String content, Pageable pageable) {
-        return repository.findByContentLike(content, pageable);
+        return repository.findByContent(content, pageable);
+    }
+
+    @Override
+    public Page<Poem> searchUsingCustomQuery(String content, Pageable pageable) {
+        return repository.findByContentUsingCustomQuery(content, pageable);
     }
 
     @Override

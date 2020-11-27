@@ -6,7 +6,12 @@ import vananh.springboot.tutorial.springfulltextelasticsearch.model.Poem;
 
 public interface PoemService {
    Page<Poem> search(String content, Pageable pageable);
+
+   Page<Poem> searchUsingCustomQuery(String content, Pageable pageable);
+
    Poem save(Poem poem);
+
    Page<Poem> searchAll(Pageable pageable);
+
    void deleteAll();
 }

@@ -26,7 +26,13 @@ public class WebController {
 
     @RequestMapping("/search")
     public String search(String content, Pageable pageable, Model model) {
-        Page<Poem> poems = poemService.search(content, pageable);
+        Page<Poem> poems = null;
+        if (content.isEmpty() || content.isBlank()) {
+            poems = poemService.searchAll(pageable);
+        } else {
+            // poems = poemService.searchAll(pageable);
+            poems = poemService.searchUsingCustomQuery(content, pageable);
+        }
         List<Poem> list = poems.getContent();
         model.addAttribute("poems", list);
         return "index";

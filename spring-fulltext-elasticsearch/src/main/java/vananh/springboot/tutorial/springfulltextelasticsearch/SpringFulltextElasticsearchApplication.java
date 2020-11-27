@@ -21,17 +21,20 @@ public class SpringFulltextElasticsearchApplication {
 
 	@PostConstruct
 	public void init() {
-		Poem poem1= new Poem();
-		Poem poem2= new Poem();
+		service.deleteAll();
 
+		Poem poem1 = new Poem();
+		Poem poem2 = new Poem();
+		Poem poem3 = new Poem();
 		poem1.setTitle("First title");
-		poem1.setContent("say hello java");
+		poem1.setContent("Say hi java");
 		poem2.setTitle("Second title");
 		poem2.setContent("say hello elasticsearch");
-
-		service.deleteAll();
+		poem3.setTitle("Thirst title");
+		poem3.setContent("other content");
 
 		service.save(poem1);
 		service.save(poem2);
+		service.save(poem3);
 	}
 }
