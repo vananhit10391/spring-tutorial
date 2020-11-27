@@ -3,7 +3,10 @@
 * Refer /springboot-i18n
 ## springboot-elasticsearch module
 * Refer /springboot-elasticsearch
+* Note: version elasticsearch > 7.0
 ## spring-data-elasticsearch module
 * Refer /spring-data-elasticsearch
+* Note: version elasticsearch > 7.0
 ## spring-fulltext-elasticsearch module
 * Refer /spring-fulltext-elasticsearch
+* Note: version elasticsearch > 7.0

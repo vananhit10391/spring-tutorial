@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-data-elasticsearch/spring-data-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-data-elasticsearch/spring-data-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-data-elasticsearch.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-data-elasticsearch.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-data-elasticsearch.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-data-elasticsearch.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-elastic-synchronizer-mysql/springboot-elastic-synchronizer-mysql.iml" filepath="$PROJECT_DIR$/springboot-elastic-synchronizer-mysql/springboot-elastic-synchronizer-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot-tutorial.iml" filepath="$PROJECT_DIR$/.idea/springboot-tutorial.iml" />
     </modules>
   </component>
