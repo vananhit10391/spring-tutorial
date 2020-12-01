@@ -10,3 +10,6 @@
 ## spring-fulltext-elasticsearch module
 * Refer /spring-fulltext-elasticsearch
 * Note: version elasticsearch = 7.10.0
+## springboot-elastic-synchronizer-mysql module
+* Refer /springboot-elastic-synchronizer-mysql
+* Note: version elasticsearch = 7.10.0

@@ -27,6 +27,8 @@ dependencies {
 	runtimeOnly 'mysql:mysql-connector-java'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	// https://mvnrepository.com/artifact/org.mapstruct/mapstruct
+	compile group: 'org.mapstruct', name: 'mapstruct', version: '1.4.1.Final'
 }
 
 test {
