@@ -10,7 +10,8 @@
 ## Testing
 * `curl -H "Content-Type: application/json" -XGET localhost:7005/search/user/`
 * `curl -d '{"firstName": "Thomas","lastName": "Tom"}' -H "Content-Type: application/json" -XPOST localhost:7005/user/`
+*  Waiting about 3 minutes
 * `curl -H "Content-Type: application/json" -XGET localhost:7005/search/user/`
 * `curl -d '{"id": "1", "firstName": "Thomas_temp","lastName": "Tom_temp"}' -H "Content-Type: application/json" -XPUT localhost:7005/user/`
-Waiting about 3 minutes
+*  Waiting about 3 minutes
 * `curl -H "Content-Type: application/json" -XGET localhost:7005/search/user/`
