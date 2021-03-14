@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/.idea/modules" />
+    <file type="web" url="file://$PROJECT_DIR$/junit_test" />
     <file type="web" url="file://$PROJECT_DIR$/sprinboot-fulltext-elasticsearch" />
     <file type="web" url="file://$PROJECT_DIR$/spring-data-elasticsearch" />
     <file type="web" url="file://$PROJECT_DIR$/spring-fulltext-elasticsearch" />

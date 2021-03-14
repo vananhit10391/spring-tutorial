@@ -13,3 +13,5 @@
 ## springboot-elastic-synchronizer-mysql module
 * Refer /springboot-elastic-synchronizer-mysql
 * Note: version elasticsearch = 7.10.0
+## junit_test module
+* Refer /junit_test
