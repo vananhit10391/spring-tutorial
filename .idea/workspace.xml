@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6c8ec91d-e416-46fd-9ffe-a1c95bd1d12a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,12 +83,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="StudentControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/junit_test" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;spring.tutorial.junit_test.StudentControllerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.StudentControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,7 +125,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615994312080</updated>
-      <workItem from="1615994313483" duration="130000" />
+      <workItem from="1615994313483" duration="477000" />
+      <workItem from="1615994803445" duration="16000" />
+      <workItem from="1615994834989" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1615994438310</created>
@@ -106,7 +136,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615994438310</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1615994458260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615994458260</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1615994502470</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615994502470</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,9 +163,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1615994798612">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.805@0.25.1440.805" timestamp="1615994798612" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1615994798611">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.805@0.25.1440.805" timestamp="1615994798611" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1615994798610">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.805@0.25.1440.805" timestamp="1615994798610" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1615994798611">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.805@0.25.1440.805" timestamp="1615994798611" />
   </component>
 </project>
