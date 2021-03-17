@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/.idea/modules" />
     <file type="web" url="file://$PROJECT_DIR$/junit_test" />
-    <file type="web" url="file://$PROJECT_DIR$/sprinboot-fulltext-elasticsearch" />
     <file type="web" url="file://$PROJECT_DIR$/spring-data-elasticsearch" />
     <file type="web" url="file://$PROJECT_DIR$/spring-fulltext-elasticsearch" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-elastic-synchronizer-mysql" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-elasticsearch" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-i18n" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="15" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="15" project-jdk-type="JavaSDK" />
 </project>
